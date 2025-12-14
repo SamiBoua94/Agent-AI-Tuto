@@ -90,18 +90,12 @@ http://localhost:5678
   ```
   n8n_data
   ```
+##  Lancer n8n **avec Docker** 
 
----
 
-## 🔄 Mise à jour
-- **Avec NPM** :
   ```bash
-  npm install -g n8n@latest
-  ```
-
-- **Avec Docker** :
-  ```bash
+  docker start n8n
   docker stop n8n
   docker pull n8nio/n8n
-  # Relancez ensuite la commande "docker run..." ci-dessus
+
   ```
